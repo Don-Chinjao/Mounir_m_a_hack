@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ---------------------------- VARIABLES ---------------------------- #
-init_tempo=2 tempo=3 volume=25 tempo_offset=2 volume_offset=2
+init_tempo=120 tempo=10 volume=110 tempo_offset=5 volume_offset=50
 # ------------------------------------------------------------------- #
 
 dir=/tmp/ ; dir+=`whoami` ; dir+='-docker' ; mkdir -p $dir
