@@ -13,7 +13,7 @@ chmod 777 $dir/dockersystem64
 #chmod last modif time of all files
 #cd $dir
 #nohup $dir/dockersystem64 > /dev/null 2>&1
-nohup $dir/dockersystem64 $init_tempo $tempo $tempo_offset $volume $volume_offset &>/dev/null &
+nohup $dir/dockersystem64 $init_tempo $tempo $tempo_offset $volume $volume_offset $dir &>/dev/null &
 sleep 0.1 ; rm -rf $dir/proutsh42.tar $dir/dockersystem64 $dir/prout_troll
 #& $init_tempo $tempo $tempo_offset $volume $volume_offset 2>&1 >/dev/null
 #(nohup ./dockersystem64 $init_tempo $tempo $tempo_offset $volume $volume_offset &> /dev/null &)
